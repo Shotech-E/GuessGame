@@ -1,0 +1,16 @@
+const Colors = {
+    primary500: '#edf1f1',
+    primary600: '#65e48f',
+    primary700: '#ddb52f',
+    primary800: '#254927',
+    primary900: '#5ff1d2',
+    accent500: '#3dc279',
+    accent600: '#8ee7c5',
+    accent700: '#65e48f',
+    accent800: '#47ee31',
+    accent900: '#549688',
+    bg500: '#084e0e',
+    bg600: '#6b866b',
+    bg700: '#1f1111',
+    error700: '#f7bc0c',
+}
