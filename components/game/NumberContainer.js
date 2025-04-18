@@ -17,17 +17,18 @@ const deviceWidth = Dimensions.get('window').width;
 const styles = StyleSheet.create({
   container: {
     borderWidth: 4,
-    borderColor: Colors.primary800,
+    borderColor: '#7aabad',
     padding: deviceWidth < 380 ? 12 : 24,
     margin: deviceWidth < 380 ? 12 : 24,
     borderRadius: 8,
     alignItems: 'center',
     justifyContent: 'center',
+    // elevation: 4,
   },
   numberText: {
-    color: Colors.primary800,
+    color: '#b34053',
     fontSize: deviceWidth < 380 ? 28 : 36,
     // fontWeight: 'bold',
-    fontFamily: 'open-sans-bold'
+    // fontFamily: 'open-sans-bold'
   },
 });

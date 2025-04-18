@@ -14,7 +14,7 @@ export default InstructionText;
 const styles = StyleSheet.create({
   instructionText: {
     fontFamily: 'open-sans',
-    color: "#020c04",
+    color: "#b34053",
     fontSize: 24,
     textAlign: 'center',  // Added for better text alignment
     marginVertical: 8,    // Added default vertical spacing

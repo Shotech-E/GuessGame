@@ -10,15 +10,15 @@ const styles = StyleSheet.create({
   title: {
     fontFamily: 'open-sans-bold',
     fontSize: 24,
-    color: '#fcfdfd',
+    color: '#84c8ad',
     textAlign: 'center',
     ...Platform.select({
       ios: {
         borderWidth: 0
       },
       android: {
-        borderWidth: 2,
-        borderColor: '#3de999',
+        borderWidth: 4,
+        borderColor: '#b34053',
       }
     }),
     padding: 12,

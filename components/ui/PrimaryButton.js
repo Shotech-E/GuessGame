@@ -27,17 +27,19 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   buttonInnerContainer: {
-    backgroundColor: "#a09e91",
+    backgroundColor: "#1d6f6d",
     paddingVertical: 8,
     paddingHorizontal: 16,
     elevation: 2,
   },
   buttonText: {
-    color: '#ffffff', // Fixed: Added Colors reference
+    color: '#b34053', // Fixed: Added Colors reference
     textAlign: 'center',
+    fontWeight: 'bold',
+    fontSize: 18,
   },
   pressed: {
     opacity: 0.75,
-    backgroundColor: "#d3eec9",
+    backgroundColor: "#7aa85d",
   },
 });

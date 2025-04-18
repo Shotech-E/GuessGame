@@ -14,12 +14,12 @@ export default GuessLogItem;
 
 const styles = StyleSheet.create({
   listItem: {
-    borderColor: "#53f513", // Changed to a more visible color
+    borderColor: "#1d6f6d", // Changed to a more visible color
     borderWidth: 1,
     borderRadius: 40,
     padding: 12,
     marginVertical: 8,
-    backgroundColor: "#f6f7c8", // Changed to a more neutral color
+    backgroundColor: "#7aa85d", // Changed to a more neutral color
     flexDirection: 'row',
     justifyContent: 'space-between',
     width: '100%',
@@ -28,13 +28,13 @@ const styles = StyleSheet.create({
         elevation: 4,
       },
       ios: {
-        shadowColor: "#a19595",
+        shadowColor: "#d78381",
         shadowOffset: { width: 0, height: 0 },
         shadowOpacity: 0.25,
         shadowRadius: 3,
       },
       android: {
-        shadowColor: "#a19595",
+        shadowColor: "#d78381",
         shadowOffset: { width: 0, height: 0 },
         shadowOpacity: 0.25,
         shadowRadius: 3,
@@ -43,6 +43,12 @@ const styles = StyleSheet.create({
   },
   itemText: {
     fontFamily: 'open-sans',
-    color: "#020c04",
+    color: "#84c8ad",
+    fontSize: 16,
+    textAlign: 'center',
+    letterSpacing: 1,
+    textShadowColor: "#b3403b",
+    textShadowOffset: { width: 2, height: 1 },
+    textShadowRadius: 2,
   },
 });

@@ -85,7 +85,7 @@ export default function App() {
     <>
       <StatusBar style="light" />
       <LinearGradient
-        colors={["#77f777", "#d5f0ed"]}
+        colors={["#7aa85d", "#1d6f6d"]}
         style={styles.rootScreen}
       >
         <ImageBackground
